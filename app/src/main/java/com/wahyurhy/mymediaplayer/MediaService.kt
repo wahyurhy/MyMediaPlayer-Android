@@ -21,8 +21,8 @@ class MediaService : Service(), MediaPlayerCallback {
     private var isReady: Boolean = false
 
     companion object {
-        const val ACTION_CREATE = "com.wahyurhy.mymediaplayer.mediaservice.create"
-        const val ACTION_DESTROY = "com.wahyurhy.mymediaplayer.mediaservice.destroy"
+        const val ACTION_CREATE = "create"
+        const val ACTION_DESTROY = "destroy"
         const val TAG = "MediaService"
         const val PLAY = 0
         const val STOP = 1
